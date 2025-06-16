@@ -91,6 +91,16 @@ header ul li a:hover {
 
 /* NAVBAR DESKTOP */
 
+.field-project img {
+  width: 100%;
+  height: auto; /* jangan pakai height tetap */
+  object-fit: contain;
+  display: block;
+}
+.field-project {
+  height: auto;
+}
+
 
 /* MAIN HOME */
 .section-home {
@@ -363,6 +373,16 @@ header ul li a:hover {
     margin-bottom: 10px;
 }
 
+.project-date {
+    font-family: 'Poppins', sans-serif; /* samain kayak h3 */
+    font-size: 14px; /* boleh disesuaikan */
+    font-weight: normal; /* supaya nggak bold */
+    line-height: 20px;
+    color: #b9b2b2; /* atau warna lain yang kamu suka */
+    margin-top: -5px; /* kalau mau agak naik, opsional */
+    margin-bottom: 10px;
+}
+
 .field-text-project h3 span {
     color: rgb(94, 234, 212);
 }
@@ -380,6 +400,12 @@ header ul li a:hover {
     gap: 16px;
     grid-area: technology-project;;
 }
+
+
+
+
+
+
 
 .technology-project a {
     font-family: 'Roboto', sans-serif;
